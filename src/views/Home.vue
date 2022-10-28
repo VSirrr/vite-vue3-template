@@ -1,7 +1,9 @@
-<script setup></script>
+<script setup>
+import Ship from '@/components/Ship.vue'
+</script>
 
 <template>
-  <svg
+  <!-- <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink"
     style="
@@ -82,7 +84,8 @@
         ></animate>
       </path>
     </g>
-  </svg>
+  </svg> -->
+  <Ship />
   <div>Home Page</div>
   <svg
     xmlns="http://www.w3.org/2000/svg"
