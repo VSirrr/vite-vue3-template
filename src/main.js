@@ -1,6 +1,9 @@
-import AOS from 'aos'
+// css
+import '@vsirrr/normalize.css'
 import './style.scss'
 import 'aos/dist/aos.css'
+// js
+import AOS from 'aos'
 import App from './App.vue'
 import router from './router'
 import { createApp } from 'vue'
