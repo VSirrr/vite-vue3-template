@@ -169,6 +169,9 @@ import Ship from '@/components/Ship.vue'
       </path>
     </g>
   </svg>
+  <img style="width: 100%" src="../assets/wave.svg" alt="wave" />
+  <img style="width: 100%" src="../assets/wave1.svg" alt="wave1" />
+  <img style="width: 100%" src="../assets/wave2.svg" alt="wave2" />
 </template>
 
 <style scoped></style>
