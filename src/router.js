@@ -6,11 +6,11 @@ const router = createRouter({
     {
       path: '/',
       alias: '/home',
-      component: () => import('./views/Home.vue'),
+      component: () => import('@/views/Home/index.vue'),
     },
     {
-      path: '/plan',
-      component: () => import('./views/Plan.vue'),
+      path: '/about',
+      component: () => import('@/views/About/index.vue'),
     },
     {
       path: '/:pathMatch(.*)',
