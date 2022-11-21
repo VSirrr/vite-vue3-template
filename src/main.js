@@ -1,6 +1,6 @@
 // css
 import '@vsirrr/normalize.css'
-// import './style.scss'
+import './style.scss'
 // js
 import App from './App.vue'
 import router from './router'
