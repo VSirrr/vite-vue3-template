@@ -7,7 +7,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint --fix --ext .js,.ts,.vue src && stylelint --fix src/**/*.{vue,scss,sass,css}",
-    "prepare": "husky install && chmod ug+x .husky/*"
+    "prepare": "husky install"
   },
   "dependencies": {
     "@vsirrr/normalize.css": "^0.1.0",
